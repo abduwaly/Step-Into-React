@@ -5,7 +5,7 @@ import { DatePicker } from 'antd'
 function HelloPage() {
   return (
     <div>
-      Hello,AntDesign!
+      Hello,AntDesign! Let's go!
     </div>
   );
 }
