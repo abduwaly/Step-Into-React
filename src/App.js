@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { DatePicker } from 'antd';
+import 'antd/dist/antd.css';
 
 class App extends Component {
   render() {
@@ -14,6 +16,10 @@ class App extends Component {
           I've already started,........
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>给组件传参：{this.props.myParam}</p><br/>
+        <DatePicker />
+        <p>按需加载</p>
+        
       </div>
     );
   }
